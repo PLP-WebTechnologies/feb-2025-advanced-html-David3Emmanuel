@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML</title>
+</head>
+
+<body>
+
+    <ol type="I">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ol>
+
+    <img src="https://images.pexels.com/photos/31133725/pexels-photo-31133725/free-photo-of-streetlamp-amidst-blooming-cherry-blossoms-at-dusk.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+        alt="Streetlamp amidst blooming cherry blossoms at dusk" width="450" />
+
+    <video width="320" height="240" controls autoplay muted loop>
+        <source src="https://videos.pexels.com/video-files/31032727/13264074_640_360_25fps.mp4" />
+        Your browser does not support the video tag.
+    </video>
+
+    <table border="1" cellpadding="5" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>David Emmanuel</td>
+                <td>Lagos, Nigeria</td>
+                <td>+2347012117811</td>
+                <td>david3emmanuel@gmail.com</td>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td>New York, USA</td>
+                <td>+1 234 567 890</td>
+                <td>johndoe@example.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form>
+        <!-- Name Field -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+        <!-- Email Field -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <!-- Password Field -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+        <!-- Date Field -->
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date"><br><br>
+
+        <!-- Dropdown Field -->
+        <label for="dropdown">Choose an option:</label>
+        <select id="dropdown" name="dropdown">
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+        </select><br><br>
+
+        <!-- Radio Buttons -->
+        <fieldset>
+            <legend>Choose a color:</legend>
+            <input type="radio" id="red" name="color" value="red">
+            <label for="red">Red</label><br>
+            <input type="radio" id="green" name="color" value="green">
+            <label for="green">Green</label><br>
+            <input type="radio" id="blue" name="color" value="blue">
+            <label for="blue">Blue</label><br>
+        </fieldset><br>
+
+        <!-- Checkboxes -->
+        <fieldset>
+            <legend>Select hobbies:</legend>
+            <input type="checkbox" id="reading" name="hobby1" value="reading">
+            <label for="reading">Reading</label><br>
+            <input type="checkbox" id="traveling" name="hobby2" value="traveling">
+            <label for="traveling">Traveling</label><br>
+            <input type="checkbox" id="gaming" name="hobby3" value="gaming">
+            <label for="gaming">Gaming</label><br>
+        </fieldset><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
